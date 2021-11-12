@@ -4,10 +4,10 @@ pipeline
 
 	agent any
 
-		Stages {
+		stages {
 
 
-					Stage ('Step One')	
+					stage ('Step One')	
 
 						{
 
@@ -19,7 +19,7 @@ pipeline
 
 						}
 
-					Stage ('Step Two')	
+					stage ('Step Two')	
 
 						{
 
@@ -32,7 +32,7 @@ pipeline
 						}
 
 
-					Stage ('Step Three')	
+					stage ('Step Three')	
 
 						{
 
@@ -53,14 +53,14 @@ pipeline
 
 						}
 
-					Stage ('Step Four')	
+					stage ('Step Four')	
 
 						{
 
 							parallel {
 
 
-								Stage ('Unit Test')	
+								stage ('Unit Test')	
 
 										{
 
@@ -73,7 +73,7 @@ pipeline
 										}	
 
 
-								Stage ('Integration Test')	
+								stage ('Integration Test')	
 
 								{
 
