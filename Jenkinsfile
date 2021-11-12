@@ -78,16 +78,7 @@ pipeline
 								{
 
 
-									agent {
-
-										docker {
-
-											reuseNode false
-											image 'ubuntu'
-
-												}	
-
-											}
+									agent any
 
 
 									steps { 
